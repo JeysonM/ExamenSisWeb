@@ -15,7 +15,9 @@
     <header class="primary-header container group">
 
       <h1 class="logo">
+      <img src="blogp.png" class="img-logo" height="50px">
         <a href="index.html">sistemas Web</a>
+
       </h1>
 
       <nav class="nav primary-nav">
@@ -35,7 +37,6 @@
       <div class="grid">
 
         <!-- Details -->
-
         <section class="col-aux">
 
           <h2 >Registrate</h2>
@@ -76,14 +77,19 @@
           nemini parcetur. 
           </p>
 
-        </section><!--
+        </section>
+        <!--
+    
+        Registration form-->
 
-        Registration form
-
-        --><form class="col-3-3" action="#" method="post">
+        
+        <form class="col-3-3" action="#" method="post">
 
           <fieldset class="register-group">
-
+          <!--  
+            <input type="radio" name="sex" value="male">Masculino
+            <input type="radio" name="sex" value="female">Femenino
+            -->
             <label>
               Nombre
               <input type="text" name="name" placeholder="Nombre Completo" required>
@@ -108,12 +114,30 @@
               <textarea name="comments"></textarea>
             </label>
 
-          </fieldset>
+            <label>
+            Color Polera
+            <input name="color" type="color" />
+            </label>
+            <label>
+            Fecha de Nacimiento
+            <form>
+            <input type="date" name="bday">
+          </form>
+          </label>
+            Sexo
+            <input type="radio" name="sex" value="male">Masculino
+            <input type="radio" name="sex" value="female">Femenino
 
-          <input class="btn btn-default" type="submit" name="submit" value="REGISTRARSE">
+          </fieldset>
+          
+           <input class="btn btn-default" type="submit" name="submit" value="REGISTRARSE">
 
         </form>
 
+      </div>
+
+      <div id="propaganda">
+        <img src="blogp.png">
       </div>
     </section>
 
